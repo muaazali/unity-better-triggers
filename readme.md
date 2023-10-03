@@ -13,11 +13,11 @@ You can simply download the `Trigger.cs` script from the `Assets` folder.
 YouTube Tutorial: -TBA-
 
 1. Download the `Trigger.cs` file and put it anywhere in your project.
-2. Move/Attach the Collider component with `isTrigger = true` to an empty child object of the parent.
-3. Attach the new `Trigger` component to the same object the collider component is attached to.
+2. Move/Attach the Collider component with `isTrigger = true` to an empty child object of the parent.![Step 2](https://i.imgur.com/JyzjZch.png)
+3. Attach the new `Trigger` component to the same object the collider component is attached to.![Step 3](https://i.imgur.com/QuvxnXJ.png)
 4. Add `using BetterTriggers;` to the script you're handling the trigger in.
-4. Create two public/serialized private fields of type `Trigger` and assign your new child gameobject to these fields.
-5. Register the events in any of the initialization functions (Start, Awake, CustomStartFunction, etc.)
+5. Create public/serialized private field of type `Trigger` and assign your new child gameobject to it.![Step5.1](https://i.imgur.com/Rudvi1q.png)![Step5.2](https://i.imgur.com/LdTXAJx.png)
+6. Register the events in any of the initialization functions (Start, Awake, CustomStartFunction, etc.)![Step 6](https://i.imgur.com/IOxpY59.png)
 
 That's it!
 
