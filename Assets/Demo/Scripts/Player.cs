@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using BetterTriggers;
 
 public class Player : MonoBehaviour
 {
